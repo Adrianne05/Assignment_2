@@ -1,8 +1,8 @@
 import { Bookmark, Search } from "lucide-react-native";
 import { Image, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import pfp from "../../../assets/images/default_pfp.png";
-import post from "../../../assets/images/nba_post.jpg";
+import pfp from "@/assets/images/default_pfp.png";
+import post from "@/assets/images/nba_post.jpg";
 
 export default function SearchPage() {
   return (

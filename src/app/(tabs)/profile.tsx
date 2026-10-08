@@ -15,7 +15,7 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import pfp from "../../../assets/images/default_pfp.png";
+import pfp from "@/assets/images/default_pfp.png";
 
 export default function ProfilePage() {
   return (
