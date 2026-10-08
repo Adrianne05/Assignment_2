@@ -1,12 +1,12 @@
-import { Heart, Plus} from "lucide-react-native";
-import { StyleSheet, Text, View} from "react-native";
+import { Heart, Plus } from "lucide-react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Header() {
-    return (
+  return (
     <View style={styles.header}>
-        <Plus size = {28} color = "#000000"/>
-        <Text style = {styles.logo}>Instagram</Text>
-        <Heart size = {28} color = "#000000"/>
+      <Plus size={28} color="#000000" />
+      <Text style={styles.logo}>Instagram</Text>
+      <Heart size={28} color="#000000" />
     </View>
   );
 }
@@ -22,6 +22,6 @@ const styles = StyleSheet.create({
 
   logo: {
     fontSize: 28,
-    fontWeight: "bold"
-  }
+    fontWeight: "bold",
+  },
 });

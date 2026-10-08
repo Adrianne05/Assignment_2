@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <Header />
       <StoryList />
-      <Post/>
+      <Post />
     </SafeAreaView>
   );
 }
