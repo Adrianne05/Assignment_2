@@ -1,18 +1,18 @@
 import {
-    Grid3x3,
-    Menu,
-    PlaySquare,
-    Plus,
-    Repeat2,
-    UserSquare,
+  Grid3x3,
+  Menu,
+  PlaySquare,
+  Plus,
+  Repeat2,
+  UserSquare,
 } from "lucide-react-native";
 import {
-    Image,
-    Pressable,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View,
+  Image,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import pfp from "../../../assets/images/default_pfp.png";
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
-  profileButtonText: {
+  profileText: {
     fontSize: 16,
     fontWeight: "600",
   },
